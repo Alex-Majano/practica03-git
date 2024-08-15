@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Formación Virtual | Bienvenida</title>
+    <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>
+            <img src="images/logo.png" alt="Logo">
+        </h1>
+    </header>
+
+    <nav class="navbar">
+        <a href="#inicio">Inicio</a>
+        <a href="#quienes-somos">Quiénes Somos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#tarifas">Tarifas</a>
+        <a href="#localizacion">Localización</a>
+    </nav>
+
+    <section id="quienes-somos" class="content who">
+        <h2 class="title">Quiénes Somos</h2>
+        <p>Somos una empresa dedicada a la innovación tecnológica, con el objetivo de hacer la vida más fácil a través de soluciones digitales.</p>
+        <h3>Historia</h3>
+        <p>Fundada en 2023, hemos crecido de un pequeño equipo de desarrolladores apasionados a una empresa líder en el sector, con presencia en más de 5 países.</p>
+        
+        <h3>Valores y Cultura</h3>
+        <p>Valoramos la innovación, la integridad y el servicio al cliente. Trabajamos para crear un ambiente de colaboración, respeto y creatividad.</p>
+        
+        <h3>Equipo</h3>
+        <p>Nuestro equipo está compuesto por más de 10 profesionales dedicados a la investigación y desarrollo de tecnologías emergentes. Conoce a nuestros líderes:</p>
+        <ul>
+            <li>Alex Israel Majano, Director General y Fundador</li>
+            <li>Abigail Cortéz, Directora de Tecnología</li>
+            <li>Fabiola Majano, Jefa de Operaciones</li>
+        </ul>
+        
+        <h3>Misión y Visión</h3>
+        <p>Nuestra misión es transformar la manera en que las personas interactúan con la tecnología. Nuestra visión es ser reconocidos como pioneros en soluciones digitales innovadoras.</p>
+        
+        <h3>Impacto y Compromiso</h3>
+        <p>Estamos comprometidos con la sostenibilidad y la inclusión digital. Apoyamos iniciativas que promueven el acceso a la tecnología para comunidades desfavorecidas.</p>
+        
+        <h3>Vamos a la Acción</h3>
+        <p>¡Conoce más sobre nosotros y únete a nuestra misión de innovación y cambio positivo!</p>
+    </section>
+
+    <section id="servicios" class="content services">
+        <h2 class="title">Servicios</h2>
+        <p>Creamos soluciones de software personalizadas para satisfacer las necesidades específicas de tu negocio, desde aplicaciones web hasta sistemas de gestión empresarial.</p>
+        <ul class="list-services">
+            <li>
+                <figure>
+                    <img src="images/ico1.png" alt="Angular">
+                    <figcaption>Angular</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/ico2.png" alt="React">
+                    <figcaption>React</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/ico3.png" alt="Vuejs">
+                    <figcaption>Vuejs</figcaption>
+                </figure>
+            </li>
+        </ul>
+    </section>
+
+    <section id="tarifas" class="content tarifas">
+        <article class="contain">
+            <h2 class="title">Tarifas</h2>
+            <p>Ofrecemos tarifas competitivas y personalizadas para adaptarnos a las necesidades de tu negocio. Nuestros planes están diseñados para proporcionar el máximo valor y retorno de inversión.</p>
+            <p>Entendemos que cada empresa es única, por lo que ofrecemos diferentes niveles de servicio que pueden ajustarse a tus requisitos específicos. Desde pequeñas empresas hasta grandes corporaciones, tenemos un plan que se adapta a ti. Si necesitas una solución a medida, no dudes en ponerte en contacto con nosotros para obtener una cotización personalizada.</p>
+            <a href="#contacto" class="btn">Contáctanos</a>
+        </article>
+    </section>  
+
+    <section id="opiniones" class="content opiniones">
+        <h2 class="title">Opiniones</h2>
+        <div class="opinion-box">
+            <blockquote>
+                <p>"La Formación Virtual nos ha transformado nuestra manera de trabajar con su increíble equipo y servicios."</p>
+                <cite>- Alex López, CEO de Empresa X</cite>
+            </blockquote>
+        </div>
+        <div class="opinion-box">
+            <blockquote>
+                <p>"El profesionalismo de Formación Virtual es inigualable. ¡Altamente recomendado!"</p>
+                <cite>- Laura Molina, Gerente de Empresa Y</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="localizacion" class="content localization">
+        <h2 class="title">Localización</h2>
+        <p>Nos encontramos ubicados en Mejicanos, accesibles para todos nuestros clientes. Visítanos en nuestra oficina central o contáctanos para cualquier consulta.</p>
+        <div id="map"></div>
+        <h3>Formulario de Contacto</h3>
+        <form id="contacto" action="enviar_formulario.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Fazt. Todos los derechos reservados.</p>
+        <nav class="footer-nav">
+            <a href="#inicio">Inicio</a>
+            <a href="#quienes-somos">Quiénes Somos</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#tarifas">Tarifas</a>
+            <a href="#localizacion">Localización</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </footer>
+</body>
+</html>
